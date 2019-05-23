@@ -4,6 +4,9 @@ import Aux from '../../HOC/Aux';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import './Projects.css';
+import Ruby from './Ruby/Ruby';
+import ReactProjects from './React/React';
+import JS from './JS/Js';
 
 class Projects extends Component {
 
@@ -18,15 +21,15 @@ class Projects extends Component {
                 <div className="category-tabs">
                     <Tabs defaultActiveKey="react" id="uncontrolled-tab-example">
                         <Tab eventKey="react" title="ReactJs">
-                            <h1>React Projects</h1>
+                            <ReactProjects />
                         </Tab>
                         <Tab eventKey="ruby" title="Ruby">
-                            <h1>Ruby Projects</h1>
+                            <Ruby />
                         </Tab>
                         <Tab eventKey="js" title="Vanilla JS">
-                            <h1>Javascript Projects</h1>
+                            <JS />
                         </Tab>
-                    </Tabs>;
+                    </Tabs>
                 </div>
             </div>
         )
