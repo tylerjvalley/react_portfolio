@@ -2,11 +2,11 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import picture from '../../Images/avatar-pic.jpg'
 import Navigation from '../Navigation/Navigation';
-import './Header.css';
+import './Home.css';
 
 
 
-const header = () => {
+const home = () => {
     return (
         <Jumbotron className="jumbotron">
             <Navigation />
@@ -21,14 +21,14 @@ const header = () => {
                 <p>HTML/CSS | ReactJs | Javascript | Ruby on Rails</p>
 
                 <div className="social-links">
-                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-linkedin-in" aria-hidden="true" />
+                    <a href="http://facebook.com/tyler.valley.79" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-facebook" aria-hidden="true" />
                     </a>
-                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/tylerjvalley" rel="noopener noreferrer" target="_blank">
                         <i className="fab fa-github" aria-hidden="true" />
                     </a>
-                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-facebook" aria-hidden="true" />
+                    <a href="https://www.linkedin.com/in/tyler-valley-469b58128/" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-linkedin-in" aria-hidden="true" />
                     </a>
                 </div>
             </div>
@@ -43,4 +43,4 @@ const header = () => {
     );
 }
 
-export default header;
+export default home;

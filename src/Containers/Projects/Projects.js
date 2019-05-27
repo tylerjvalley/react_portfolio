@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navigation from '../../Components/Navigation/Navigation';
-import Aux from '../../HOC/Aux';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import './Projects.css';
