@@ -1,7 +1,19 @@
 .category-tabs {
     margin-top: 50px;
+    
 }
 
 .row {
     margin-bottom: 4em;
 }
+
+.nav-tabs {
+    justify-content: space-around;
+}
+
+.project-links i {
+    color: #31D3F3;
+    font-size: 3em;
+    padding: 10px;
+}
+

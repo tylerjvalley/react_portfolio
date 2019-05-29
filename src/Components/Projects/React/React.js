@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import Links from '../Links/Links';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import reactPic from '../../../Images/reactjs.png'
 
 
 const react = () => {
@@ -13,40 +14,43 @@ const react = () => {
             <Row className="row">
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={reactPic} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                                <hr />
+                            <Links />
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={reactPic} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                                <hr />
+                            <Links />
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img variant="top" src={reactPic} />
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                                <hr />
+                            <Links />
                         </Card.Body>
                     </Card>
                 </Col>
