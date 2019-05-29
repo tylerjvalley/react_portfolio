@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import picture from '../../Images/avatar-pic.jpg'
+import picture from '../../Images/tyler.png';
 import './Home.css';
 
 

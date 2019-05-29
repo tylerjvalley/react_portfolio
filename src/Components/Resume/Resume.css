@@ -8,3 +8,8 @@
 .resume-right, .resume-left {
     margin-top: 6em;
 }
+
+.resume-image {
+    border-radius: 50%;
+    filter: brightness(130%);
+}

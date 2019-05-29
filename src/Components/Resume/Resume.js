@@ -8,6 +8,7 @@ import Qualifications from './Qualifications';
 import Experience from './Experience';
 import OtherExperience from './OtherExp';
 import References from './References';
+import image from '../../Images/tyler.png';
 
 const resume = () => {
     return (
@@ -17,13 +18,14 @@ const resume = () => {
                     <Col className="resume-left">
                         <div style={{textAlign: 'center'}}>
                             <img
-                            src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                            className="resume-image"
+                            src={image}
                             alt="avatar"
                             style={{height: '200px'}} />
                         </div>
 
                         <h2 style={{paddingTop: '2em'}}>Tyler Valley</h2>
-                        <h4 style={{color: 'grey'}}>Front End Develper</h4>
+                        <h4 style={{color: 'grey'}}>Front End Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
                         <p>My name is Tyler Valley and I am looking for an opportunity to work as a Front End or Full Stack Web Developer for an organization. I am very passionate about software development and would love to work for a company with people who share the same passion. </p>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />

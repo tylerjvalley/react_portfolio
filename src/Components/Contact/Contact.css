@@ -31,3 +31,8 @@
     width: 50%;
     margin: auto;
 }
+
+.contact-image {
+    border-radius: 50%;
+    filter: saturate(140%);
+}
