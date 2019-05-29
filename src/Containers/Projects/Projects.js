@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from '../../Components/Navigation/Navigation';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import './Projects.css';
@@ -16,7 +15,6 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-page">
-                <Navigation />
                 <div className="category-tabs">
                     <Tabs defaultActiveKey="react" id="uncontrolled-tab-example">
                         <Tab eventKey="react" title="ReactJs">

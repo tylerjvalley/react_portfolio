@@ -1,11 +1,10 @@
 import React from 'react';
-import Nav from '../Navigation/Navigation'
+import './Resume.css';
 
 const resume = () => {
     return (
         <div>
-            <Nav />
-            <h1>Resume Page</h1>
+            <h1>Resume page</h1>
         </div>
     );
 }

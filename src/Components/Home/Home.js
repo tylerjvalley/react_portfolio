@@ -1,7 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import picture from '../../Images/avatar-pic.jpg'
-import Navigation from '../Navigation/Navigation';
 import './Home.css';
 
 
@@ -9,7 +8,7 @@ import './Home.css';
 const home = () => {
     return (
         <Jumbotron className="jumbotron">
-            <Navigation />
+          
             <img src={picture} alt="avatar" className="avatar" />
 
             <div className="text">
