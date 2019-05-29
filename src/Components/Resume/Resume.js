@@ -26,6 +26,14 @@ const resume = () => {
 
                         <h2 style={{paddingTop: '2em'}}>Tyler Valley</h2>
                         <h4 style={{color: 'grey'}}>Front End Developer</h4>
+
+                        <div className="resume-link">
+                            <h4>See full Resume here -> </h4>
+                            <a href="/full-resume/" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-file" aria-hidden="true" />
+                            </a>
+                        </div>
+                        
                         <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
                         <p>My name is Tyler Valley and I am looking for an opportunity to work as a Front End or Full Stack Web Developer for an organization. I am very passionate about software development and would love to work for a company with people who share the same passion. </p>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
