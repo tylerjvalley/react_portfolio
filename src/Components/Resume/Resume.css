@@ -1,0 +1,10 @@
+.resume-right {
+    background-color: #27221f;
+    color: white;
+    padding: 2em;
+    
+}
+
+.resume-right, .resume-left {
+    margin-top: 6em;
+}
