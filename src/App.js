@@ -18,7 +18,7 @@ function App() {
       <Route path="/projects/" component={Projects} />
       <Route path="/contact/" component={Contact} />
       <Route path="/resume/" exact component={Resume} />
-      <Route path="/full-resume" component={ResumePDF} />
+      <Route path="/full-resume/" component={ResumePDF} />
       <Nav />
     </BrowserRouter>
 
