@@ -12,7 +12,7 @@ function App() {
   return (
 
 
-    <BrowserRouter>
+    <BrowserRouter basename="/tyler-valley">
       
       <Route path="/" exact component={Home} />
       <Route path="/projects/" component={Projects} />
