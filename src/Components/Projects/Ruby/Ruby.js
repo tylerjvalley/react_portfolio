@@ -4,7 +4,6 @@ import Links from '../Links/Links';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import rubyPic from '../../../Images/rais.png';
 import financePic from '../../../Images/finance.png';
 import alphaPic from '../../../Images/alpha.png'
 import tymessPic from '../../../Images/ty-message.png'
