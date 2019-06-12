@@ -1,0 +1,72 @@
+.about-me-jumbotron {
+     background: linear-gradient(rgba(6, 48, 231, 0.63),
+         rgba(65, 149, 182, 0.63)),
+     url('https://media.giphy.com/media/3o7aD9y2CKtGHRfhOE/giphy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    position: relative;
+   
+}
+
+.about-me-jumbotron h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: rgba(10, 5, 92, 0.781);
+    margin-top: 2%;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 0;
+    background-color: rgba(10, 5, 92, 0.781);
+}
+
+.frontend-fullstack {
+    padding: 5%;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.icons {
+    padding-top: 8%;
+    padding-right: 5%;
+    z-index: 0;
+}
+
+
+
+.frontend-fullstack h6 {
+   
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info div {
+    padding: 2%;
+}
+
+.skill-cards {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.card-title, .list-group-item {
+    text-align: center;
+}

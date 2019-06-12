@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 .navbar-light .navbar-nav {
     display: flex;
