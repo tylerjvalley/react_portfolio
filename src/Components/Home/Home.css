@@ -6,6 +6,15 @@
     
 }
 
+.logo h1 {
+   font-family: 'Bungee Shade', cursive; 
+   color: rgba(10, 5, 92, 0.781);
+   font-weight: bold;
+   position: absolute;
+   top: 50px;
+   left: 0;
+}
+
 .jumbotron {
     background-image: url('../../Images/newyork.jpg');
     opacity: 0.92;

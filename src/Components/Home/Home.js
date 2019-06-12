@@ -11,6 +11,10 @@ const home = () => {
           
             <img src={picture} alt="avatar" className="avatar" />
 
+            <div className="logo">
+                <h1>TV</h1>
+            </div>
+
             <div className="text">
                 <h1>Tyler J Valley</h1>
                 <h3>Front-End Developer</h3>
