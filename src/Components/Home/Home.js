@@ -1,6 +1,8 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
 import picture from '../../Images/tyler.png';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 
@@ -15,6 +17,8 @@ const home = () => {
                 <h1>TV</h1>
             </div>
 
+            <Button className="see-projects" variant="outline-light" size="lg"><Link to="/projects/">See Projects</Link></Button>
+            
             <div className="text">
                 <h1>Tyler J Valley</h1>
                 <h3>Front-End Developer</h3>

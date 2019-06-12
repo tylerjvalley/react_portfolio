@@ -16,8 +16,9 @@
 }
 
 .jumbotron {
-    background-image: url('../../Images/newyork.jpg');
-    opacity: 0.92;
+    background: linear-gradient(rgba(6, 48, 231, 0.63),
+        rgba(65, 149, 182, 0.63)),
+    url('https://media.giphy.com/media/3o7aD9y2CKtGHRfhOE/giphy.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +30,19 @@
     height: 100%;
 }
 
+.see-projects {
+    margin-bottom: 1em;
+}
+
+.see-projects a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.see-projects a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
 .text {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -37,22 +51,22 @@
 }
 
 .text h1 {
-    font-size: 66px;
+    font-size: 50px;
    font-weight: bold;
 }
 
 .text h3 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .text p {
-    font-size: 20px;
+    font-size: 15px;
     padding: 1em;
 }
 
 .text hr {
-    border-top: 5px dotted white;
+    border-top: 4px dotted white;
     width: 50%;
     margin: auto;
 }
