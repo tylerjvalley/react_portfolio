@@ -1,7 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import picture from '../../Images/tyler.png';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -11,13 +10,13 @@ const home = () => {
     return (
         <Jumbotron className="jumbotron">
           
-            <img src={picture} alt="avatar" className="avatar" />
+           
 
             <div className="logo">
                 <h1>TV</h1>
             </div>
 
-            <Button className="see-projects" variant="outline-light" size="lg"><Link to="/projects/">See Projects</Link></Button>
+            
             
             <div className="text">
                 <h1>Tyler J Valley</h1>
@@ -25,7 +24,11 @@ const home = () => {
                 <hr/>
 
                 
-                <p>HTML/CSS | ReactJs | Javascript | Ruby on Rails</p>
+        
+                <div className="buttons">
+                    <Link to="/projects/"><Button className="main-button" variant="outline-light" size="lg">See Projects</Button></Link>
+                    <Link to="/projects/"><Button className="main-button" variant="outline-light" size="lg">See Resume</Button></Link>
+                </div>
 
                 <div className="social-links">
                     <a href="http://facebook.com/tyler.valley.79" rel="noopener noreferrer" target="_blank">
@@ -38,6 +41,7 @@ const home = () => {
                         <i className="fab fa-linkedin-in" aria-hidden="true" />
                     </a>
                 </div>
+                
             </div>
 
             
