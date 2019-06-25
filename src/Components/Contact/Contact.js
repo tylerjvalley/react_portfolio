@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
-import image from '../../Images/barcelona.png'
+
 import './Contact.css';
 
 const contact = () => {
@@ -13,11 +13,7 @@ const contact = () => {
                 <Row>
                     <Col>
                         <h2>Tyler Valley</h2>
-                        <img
-                            className="contact-image"
-                            src={image}
-                            alt="avatar"
-                            style={{ height: '250px' }} />
+                        
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Feel free to contact me through phone, email, or skype</p>
                     </Col>
 
