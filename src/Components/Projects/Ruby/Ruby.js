@@ -15,50 +15,71 @@ const ruby = () => {
         <Container>
             <Row className="row">
                 <Col>
-                    <Card style={{ width: '18rem'}}>
-                        <Card.Img variant="top" src={tymessPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + tymessPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+                        
                         <Card.Body>
-                            <Card.Title>Ty-Message</Card.Title>
-                            <Card.Text>
-                                Simple instant messaging app where the user can create an account and 
-                                send messages instantly to other users
-                            </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/ty_message"
-                                project="https://ty-message.herokuapp.com/" />
+                            <div className="display">
+                                <Card.Title>Ty-Message</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/ty_message"
+                                    project="https://ty-message.herokuapp.com/" />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={financePic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + financePic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
                         <Card.Body>
-                            <Card.Title>Finance Tracker</Card.Title>
-                            <Card.Text>
-                                Ruby on Rails app that tracks stocks and lets the user store certain stocks in
-                                the portfolio to keep track of. 
-                            </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/finance_tracker"
-                                project="https://valley-finance-tracker.herokuapp.com/" />
+                            <div className="display">
+                                <Card.Title>Finance Tracker</Card.Title>
+                                
+                                <Links
+                                    github="https://github.com/tylerjvalley/finance_tracker"
+                                    project="https://valley-finance-tracker.herokuapp.com/" />
+                                </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={alphaPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + alphaPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+
                         <Card.Body>
-                            <Card.Title>Alpha Blog</Card.Title>
-                            <Card.Text>
-                                Simple Ruby on rails CRUD app where the user can sign up, create posts, and comment
-                                on other user's posts
-                            </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/alpha-blog"
-                                project="https://alpha-blog-tylerjv.herokuapp.com/" />
+                            <div className="display">
+                                <Card.Title>Alpha Blog</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/alpha-blog"
+                                    project="https://alpha-blog-tylerjv.herokuapp.com/" />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>

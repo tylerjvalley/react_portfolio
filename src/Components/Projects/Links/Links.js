@@ -1,26 +1,30 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 
 const links = (props) => (
     <Container>
-        <Row className="project-links">
-            <Col>
-                <h6>Project Link</h6>
+        <div className="project-links">
+          
                 <a href={props.project} rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa-code" aria-hidden="true" />
+                   <Button variant="info">Project</Button>
                 </a>
-            </Col>
+         
 
-            <Col>
-                <h6>Github Link</h6>
+           
                 <a href={props.github} rel="noopener noreferrer" target="_blank">
-                    <i className="fab fa-github" aria-hidden="true" />
+                    <Button variant="info">Github</Button>
                 </a>
-            </Col>
-        </Row>
+           
+
+            
+                <a href={props.project} rel="noopener noreferrer" target="_blank">
+                    <Button variant="info">Description</Button>
+                </a>
+            
+
+        </div>
     </Container>
 );
 

@@ -14,46 +14,66 @@ const react = () => {
         <Container>
             <Row className="row">
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={reactPic} />
+                    <Card 
+                    style={{ 
+                    width: '18rem', 
+                    height: '20rem',
+                    backgroundImage: "url(" + reactPic + ")", 
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center'
+                
+                }}
+                    >
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <hr />
-                            <Links />
+                            <div className="display">
+                                <Card.Title>Card Title</Card.Title>
+                                <Links />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={messagePic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + messagePic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+                      
                         <Card.Body>
-                            <Card.Title>Ty-Message</Card.Title>
-                            <Card.Text>
-                                Instant messaging app built with React, Node, Express, and socket.io.
-                                MaterialUI is also used for the styling.
-                                </Card.Text>
-                                <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/ty-message-react"
-                                project="https://ty-message-react.herokuapp.com/" /> 
+                            <div className="display">
+                                <Card.Title>Card Title</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/ty-message-react"
+                                    project="https://ty-message-react.herokuapp.com/" /> 
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={reactPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + reactPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <hr />
-                            <Links />
+                            <div className="display">
+                                <Card.Title>Card Title</Card.Title>
+                                
+                                <Links />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>

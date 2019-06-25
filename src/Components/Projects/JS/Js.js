@@ -14,53 +14,71 @@ const js = () => {
         <Container>
             <Row className="row">
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={budgetPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + budgetPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+    
                         <Card.Body>
-                            <Card.Title>Budget App</Card.Title>
-                            <Card.Text>
-                                This app allows the user to enter incomes and expenses.  It stores the values on the UI and 
-                                calculates a budget based on the values that the user enters.  
-                            </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/budget-app" 
-                                project="https://codepen.io/tylerjvalley/full/mYzrjo"/>
-                            
+                            <div className="display">
+                                <Card.Title>Budget App</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/budget-app" 
+                                    project="https://codepen.io/tylerjvalley/full/mYzrjo"/>
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={pigPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + pigPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+                       
                         <Card.Body> 
-                            <Card.Title>PIG Game</Card.Title>
-                            <Card.Text>
-                                This is a two player PIG game that I built while learning how to effectively create
-                                apps with functional programming. The rules 
-                                are posted on the README in the git repository hosted on github. (Link Below)
-                                </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/pig-game"
-                                project="https://codepen.io/tylerjvalley/full/pmxEpy" />
+                            <div className="display">
+                                <Card.Title>PIG Game</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/pig-game"
+                                    project="https://codepen.io/tylerjvalley/full/pmxEpy" />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={tipcalcPic} />
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + tipcalcPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+
                         <Card.Body>
-                            <Card.Title>Tip Calculator</Card.Title>
-                            <Card.Text>
-                                This is a very basic tip calculator.  This takes into account the number of people,
-                                amount of the bill, and quality of service. Then it calulates a suggested tip based on 
-                                what the user enters. 
-                                </Card.Text>
-                            <hr />
-                            <Links
-                                github="https://github.com/tylerjvalley/tip-calculatorjs"
-                                project="https://codepen.io/tylerjvalley/full/bymwmd" />
+                            <div className="display">
+                                <Card.Title>Tip Calculator</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/tip-calculatorjs"
+                                    project="https://codepen.io/tylerjvalley/full/bymwmd" />
+                            </div>
                         </Card.Body>
                     </Card>
                 </Col>
