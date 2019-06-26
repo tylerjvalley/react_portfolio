@@ -38,7 +38,7 @@ const react = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + messagePic + ")",
+                            backgroundImage: "url(" + reactPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
@@ -72,6 +72,27 @@ const react = () => {
                             <div className="display">
                                 <Card.Title>Card Title</Card.Title>
                                 
+                                <Links />
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + reactPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+                        <Card.Body>
+                            <div className="display">
+                                <Card.Title>Card Title</Card.Title>
+
                                 <Links />
                             </div>
                         </Card.Body>

@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import financePic from '../../../Images/finance.png';
 import alphaPic from '../../../Images/alpha.png'
 import tymessPic from '../../../Images/ty-message.png'
+import rubyPic from '../../../Images/rais.png'
 
 
 const ruby = () => {
@@ -19,7 +20,7 @@ const ruby = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + tymessPic + ")",
+                            backgroundImage: "url(" + rubyPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
@@ -37,12 +38,13 @@ const ruby = () => {
                         </Card.Body>
                     </Card>
                 </Col>
+                
                 <Col>
                     <Card
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + financePic + ")",
+                            backgroundImage: "url(" + rubyPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
@@ -65,7 +67,30 @@ const ruby = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + alphaPic + ")",
+                            backgroundImage: "url(" + rubyPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+                        <Card.Body>
+                            <div className="display">
+                                <Card.Title>Finance Tracker</Card.Title>
+
+                                <Links
+                                    github="https://github.com/tylerjvalley/finance_tracker"
+                                    project="https://valley-finance-tracker.herokuapp.com/" />
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + rubyPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'

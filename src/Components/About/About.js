@@ -42,21 +42,29 @@ const aboutMe = () => (
         </div>
 
         <div className="info">
-            <div>
+            <div>{/*
                 <h4>Motivated to produce results</h4>
-                <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>
+            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             </div>
-            <div>
-                <h4>Work well with others</h4>
-                <p>Throughout my life I have always learned to listen to and respect the opinions of co-workers. I collaborate with other people easily to produce the best possible result. I love meeting new people and learning from others as well.</p>
+            <div>{/*
+                <h4>Motivated to produce results</h4>
+            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             </div>
-            <div>
-                <h4>Always learning new things</h4>
-                <p>As a self taught programmer, I am always learning and improving my problem solving skills. I am constantly working to perfect my skills in javascript and React, as well as learning what I can through other frameworks and technologies to be a more well-rounded programmer.</p>
+            <div>{/*
+                <h4>Motivated to produce results</h4>
+            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             </div>
-            <div>
-                <h4>Love what I do</h4>
-                <p>Ever since I discovered programming and web development, I have always loved building interesting things.  3 years later, I still spend a lot of spare time working on fun personal projects.  I am proud of what I have accomplished so far, and I look forward to trying new things and working with new projects.</p>
+            <div>{/*
+                <h4>Motivated to produce results</h4>
+            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
+                <h4>Lorem ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
             </div>
         </div>
 

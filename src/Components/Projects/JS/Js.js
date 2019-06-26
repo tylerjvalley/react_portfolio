@@ -7,6 +7,7 @@ import Links from '../Links/Links';
 import tipcalcPic from '../../../Images/tipcalc.png';
 import pigPic from '../../../Images/pigPic.png';
 import budgetPic from '../../../Images/budget.png';
+import jsPic from '../../../Images/javascript.png';
 
 const js = () => {
 
@@ -18,7 +19,7 @@ const js = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + budgetPic + ")",
+                            backgroundImage: "url(" + jsPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
@@ -41,7 +42,7 @@ const js = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + pigPic + ")",
+                            backgroundImage: "url(" + jsPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
@@ -64,7 +65,30 @@ const js = () => {
                         style={{
                             width: '18rem',
                             height: '20rem',
-                            backgroundImage: "url(" + tipcalcPic + ")",
+                            backgroundImage: "url(" + jsPic + ")",
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'center'
+
+                        }}
+                    >
+
+                        <Card.Body>
+                            <div className="display">
+                                <Card.Title>Tip Calculator</Card.Title>
+                                <Links
+                                    github="https://github.com/tylerjvalley/tip-calculatorjs"
+                                    project="https://codepen.io/tylerjvalley/full/bymwmd" />
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card
+                        style={{
+                            width: '18rem',
+                            height: '20rem',
+                            backgroundImage: "url(" + jsPic + ")",
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat',
                             backgroundPosition: 'center'
