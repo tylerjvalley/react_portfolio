@@ -1,25 +1,29 @@
 .projects-page{
     margin: 4em 10em;
-
+    width: 60em;
 }
 
+.category-tabs {
+   width: 100%;
+}
 
 .nav-tabs {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nav-tabs a {
-    margin: auto;
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.card-title {
-    color: white;
-    background: #08a5ee;
-    padding: .5em;
-    width: 100%;
+.card-body .btn {
+   width: 35%;
+   margin-left: 30%;
 }
-
-
 .project-links .col h6 {
     color: white;
 }
