@@ -1,9 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import Modal from '../../Modal/Modal';
 import financePic from '../../../Images/finance.png';
-import alphaPic from '../../../Images/alpha.png'
 import tymessPic from '../../../Images/ty-message.png'
 
 
@@ -15,21 +14,22 @@ const ruby = () => {
                 <Card.Img variant="top" src={financePic} />
                 <Card.Body>
                     <Card.Title>Finance Tracker</Card.Title>
-                    <Button variant="info">View</Button>
+                    <Modal
+                        id="5"
+                        name="Finance Tracker"
+                        description="This is a simple project I built with ruby on rails through a tutorial. Through building this I learned how to use Models and routes, and how to link the back end and databases with the front end of an application. This keeps track of stocks and lets the user create profiles to save certain stocks to their portfolio."
+                    />
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={tymessPic} />
                 <Card.Body>
                     <Card.Title>Ty Message</Card.Title>
-                    <Button variant="info">View</Button>
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={alphaPic} />
-                <Card.Body>
-                    <Card.Title>Alpha Blog</Card.Title>
-                    <Button variant="info">View</Button>
+                    <Modal
+                        id="6"
+                        name="Ty Message"
+                        description="This is an instant messaging app built with ruby on rails."
+                    />
                 </Card.Body>
             </Card>
         </Container>
