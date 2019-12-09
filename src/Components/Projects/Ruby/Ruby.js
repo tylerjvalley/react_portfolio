@@ -12,7 +12,7 @@ const ruby = () => {
         <Container className="cards-container">
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={financePic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>Finance Tracker</Card.Title>
                     <Modal
                         id="5"
@@ -23,7 +23,7 @@ const ruby = () => {
             </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={tymessPic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>Ty Message</Card.Title>
                     <Modal
                         id="6"

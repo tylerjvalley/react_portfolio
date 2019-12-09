@@ -42,29 +42,21 @@ const aboutMe = () => (
         </div>
 
         <div className="info">
-            <div>{/*
+            <div>
                 <h4>Motivated to produce results</h4>
-            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>
             </div>
-            <div>{/*
-                <h4>Motivated to produce results</h4>
-            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <div>
+                <h4>Focus on JavaScript</h4>
+                <p>Over the past 4 years I've been working with JavaScript to create beautiful websites and projects for myself and for clients.  I love working with React and Node.js and I love learning as much as I can about it.</p>
             </div>
-            <div>{/*
-                <h4>Motivated to produce results</h4>
-            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <div>
+                <h4>Easy to work with</h4>
+                <p>I love working with people and collaborating with other developers to come up with interesing ideas.  I also make sure to have frequent contact with clients in order to provide them with updates and to give them the results they expect.</p>
             </div>
-            <div>{/*
-                <h4>Motivated to produce results</h4>
-            <p>I always make sure that the projects I do, and the results that I have are exactly what I need them to be.  I give 100% to my assignments, and I love chipping away at problems until I end up with a great solution.</p>*/}
-                <h4>Lorem ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <div>
+                <h4>Always learning</h4>
+                <p>I am very passionate about what I do, and I am always learning new and better ways to build applications.  I love to learn from other developers and I am constantly making myself better to produce the best results.</p>
             </div>
         </div>
 
@@ -88,11 +80,10 @@ const aboutMe = () => (
                 <Card.Body>
                     <Card.Title>BackEnd</Card.Title>
                     <ListGroup variant="flush">
-                        <ListGroup.Item>Node</ListGroup.Item>
+                        <ListGroup.Item>Node.JS</ListGroup.Item>
                         <ListGroup.Item>Express</ListGroup.Item>
                         <ListGroup.Item>MongoDB</ListGroup.Item>
                         <ListGroup.Item>PostgreSQL</ListGroup.Item>
-                        <ListGroup.Item>MongoDB</ListGroup.Item>
                         <ListGroup.Item>Ruby</ListGroup.Item>
                     </ListGroup>
                 </Card.Body>

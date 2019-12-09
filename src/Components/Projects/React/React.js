@@ -13,7 +13,7 @@ const react = () => {
         <Container className="cards-container">
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={AntiquesPic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>A Southern Market</Card.Title>
                     <Modal
                       id="1"
@@ -24,7 +24,7 @@ const react = () => {
             </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={LawOfficePic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>Noojin&amp;Noojin Law firm Website</Card.Title>
                     <Modal
                         id="2"
@@ -35,7 +35,7 @@ const react = () => {
             </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={BookFinderPic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>Book Finder</Card.Title>
                     <Modal
                         id="3"
@@ -46,7 +46,7 @@ const react = () => {
             </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={RedditPic} />
-                <Card.Body>
+                <Card.Body className="project-card-body">
                     <Card.Title>France is Bacon</Card.Title>
                     <Modal
                         id="4"

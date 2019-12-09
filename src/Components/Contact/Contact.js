@@ -14,7 +14,7 @@ const contact = () => {
                     <Col>
                         <h2>Tyler Valley</h2>
                         
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Feel free to contact me through phone, email, or skype</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Feel free to contact me through phone Monday - Friday at 9am until 5pm, or email me at any time.</p>
                     </Col>
 
                     <Col>
@@ -23,15 +23,15 @@ const contact = () => {
 
                         <div className="contact">
                             <ListGroup>
-                                <ListGroup.Item style={{ fontSize: '25px', marginTop: '15px' }}>
+                                <ListGroup.Item className="contact-list" style={{ fontSize: '25px', marginTop: '15px' }}>
                                     <i
                                         className="fa fa-phone-square"
                                         aria-hidden="true"
                                         style={{ marginRight: '10px', fontSize: '44px', marginTop: '20px', marginBottom: '20px' }} />
-                                    (334) 479-3482
+                                    (334) 794-4141
                                 </ListGroup.Item>
 
-                                <ListGroup.Item style={{ fontSize: '25px' }}>
+                                <ListGroup.Item className="contact-list"style={{ fontSize: '25px' }}>
                                     <i
                                         className="fas fa-envelope"
                                         aria-hidden="true"
@@ -39,7 +39,7 @@ const contact = () => {
                                     tvalley93@gmail.com
                                 </ListGroup.Item>
 
-                                <ListGroup.Item style={{ fontSize: '25px' }}>
+                                <ListGroup.Item className="contact-list" style={{ fontSize: '25px' }}>
                                     <i
                                         className="fab fa-skype"
                                         aria-hidden="true"

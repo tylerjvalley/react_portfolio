@@ -88,7 +88,7 @@ const ProjectModal = (props) => {
     
     return (
         <>
-            <Button onClick={() => toggle()}variant="info">View</Button>
+            <Button className="modal-button" onClick={() => toggle()}>View</Button>
             {modal}
         </>
     );

@@ -37,3 +37,9 @@
     border-radius: 50%;
     filter: saturate(140%);
 }
+
+.contact-list {
+    background: rgba(10, 5, 92, 0.781);
+    border: 1px solid white;
+    color: white;
+}

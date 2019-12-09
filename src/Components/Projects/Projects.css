@@ -8,9 +8,19 @@
 }
 
 .nav-tabs {
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-tabs a {
+   color: black;
+}
+
+.nav-tabs a:hover{
+    background: rgba(10, 5, 92, 0.8);
+    color: white;
 }
 
 .cards-container {
@@ -20,10 +30,11 @@
     flex-wrap: wrap;
 }
 
-.card-body .btn {
-   width: 35%;
-   margin-left: 30%;
+.project-card-body{
+    background: rgba(10, 5, 92, 0.781);
+    color: white;
 }
+
 .project-links .col h6 {
     color: white;
 }
@@ -43,4 +54,17 @@
     margin: .8em;
 }
 
+.modal-button {
+     width: 35%;
+     margin-left: 30%;
+     background:white;
+     border: 1px solid black;
+     color: black
+}
+
+.modal-button:hover {
+    background: grey;
+    color: white;
+    border: 1px solid transparent;
+}
 
