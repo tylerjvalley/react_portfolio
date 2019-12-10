@@ -19,32 +19,26 @@
 }
 
 .middle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
     margin: 10% 0;
     background-color: rgba(10, 5, 92, 0.781);
 }
 
 .frontend-fullstack {
-    padding: 5%;
+    padding-top: 5%;
     text-align: center;
-    border-radius: 2%;
 }
 
 .icons {
-    padding-top: 8%;
-    padding-right: 5%;
-    z-index: 0;
+    padding: 5% 0;
 }
 
 
 
 .frontend-fullstack h6 {
-   
     color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -69,4 +63,11 @@
 
 .card-title, .list-group-item {
     text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .icons {
+        padding: 8%;
+    }
 }

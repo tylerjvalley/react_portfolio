@@ -22,23 +22,23 @@ const aboutMe = () => (
         <div className="middle">
             <div className="frontend-fullstack">
                 <h6>Front End focused with experience in full stack development</h6>
-            </div>
+            </div> 
 
-            <div className="icons">
-                <Container>
-                    <Row>
-                        <Col xs={6} md={4}>
-                            <Image src={JSImage} roundedCircle />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src={ReactImage} roundedCircle />
-                        </Col>
-                        <Col xs={6} md={4}>
-                            <Image src={NodeImage} roundedCircle />
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+            
+            <Container className="icons">
+                <Row>
+                    <Col xs={4} md={4}>
+                        <Image src={JSImage} roundedCircle />
+                    </Col>
+                    <Col xs={4} md={4}>
+                        <Image src={ReactImage} roundedCircle />
+                    </Col>
+                    <Col xs={4} md={4}>
+                        <Image src={NodeImage} roundedCircle />
+                    </Col>
+                </Row>
+            </Container>
+            
         </div>
 
         <div className="info">
