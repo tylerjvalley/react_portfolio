@@ -9,16 +9,13 @@ import './Home.css';
 
 const home = () => {
     return (
+        <>
+        
         <Jumbotron className="jumbotron">
-          
-           
-
             <div className="logo">
                 <h1>TV</h1>
             </div>
-
-            
-            
+                    
             <div className="text">
                 <h1>Tyler J Valley</h1>
                 <h3>Front-End Developer</h3>
@@ -52,6 +49,7 @@ const home = () => {
              
            
         </Jumbotron>
+        </>
     );
 }
 
