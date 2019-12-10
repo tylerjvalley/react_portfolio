@@ -11,7 +11,7 @@ const js = () => {
     return (
         <Container className="cards-container">
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={tipcalcPic} />
+                <Card.Img className="card-image" variant="top" src={tipcalcPic} />
                 <Card.Body className="project-card-body">
                     <Card.Title>Tip Calculator</Card.Title>
                     <Modal
@@ -22,7 +22,7 @@ const js = () => {
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pigPic} />
+                <Card.Img className="card-image" variant="top" src={pigPic} />
                 <Card.Body className="project-card-body">
                     <Card.Title>Pig Game</Card.Title>
                     <Modal
@@ -33,7 +33,7 @@ const js = () => {
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={budgetPic} />
+                <Card.Img className="card-image"  variant="top" src={budgetPic} />
                 <Card.Body className="project-card-body">
                     <Card.Title>Budget Calculator</Card.Title>
                     <Modal
