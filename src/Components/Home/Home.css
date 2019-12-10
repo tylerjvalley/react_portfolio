@@ -90,6 +90,27 @@
   
 }
 
+.resume-image {
+    width: 100%;
+    padding: 50px;
+    transition: transform .2s;
+    margin: auto;
+}
+
+.resume-image:hover {
+    transform: scale(1.5);
+}
+
+.res-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-nums i:hover {
+    color: white;
+    background: black;
+}
 @media (max-height: 600px) {
     .jumbotron {
         overflow-y: scroll;

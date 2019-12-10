@@ -2,6 +2,7 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import Resume from '../Modal/Resume';
 import './Home.css';
 
 
@@ -27,7 +28,7 @@ const home = () => {
         
                 <div className="buttons">
                     <Link to="/projects/"><Button className="main-button" variant="outline-light" size="lg">See Projects</Button></Link>
-                    <Link to="/projects/"><Button className="main-button" variant="outline-light" size="lg">See Resume</Button></Link>
+                    <Resume />
                 </div>
 
                 <div className="social-links">
