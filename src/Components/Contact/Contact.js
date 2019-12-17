@@ -14,7 +14,7 @@ const contact = () => {
                     <Col>
                         <h2>Tyler Valley</h2>
                         
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Feel free to contact me through phone Monday - Friday at 9am until 5pm, or email me at any time.</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Feel free to contact me through phone or email me at any time.</p>
                     </Col>
 
                     <Col>
@@ -28,7 +28,7 @@ const contact = () => {
                                         className="fa fa-phone-square"
                                         aria-hidden="true"
                                         style={{ marginRight: '10px', fontSize: '44px', marginTop: '20px', marginBottom: '20px' }} />
-                                    (334) 794-4141
+                                    (334) 805-7113
                                 </ListGroup.Item>
 
                                 <ListGroup.Item className="contact-list"style={{ fontSize: '25px' }}>
